@@ -4,6 +4,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 echo 'setxkbmap -option caps:escape' >> ~/.profile
 echo 'export LYNX_CFG=$HOME/lynx.cfg' >> ~/.profile
+# PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h \[\033[33;1m\]\w\[\033[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) \n\$ "
 sudo apt install weechat -y
 sudo apt install htop -y
 sudo apt install lm-sensors -y
