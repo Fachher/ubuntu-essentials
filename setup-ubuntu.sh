@@ -29,3 +29,5 @@ sudo apt install alpine -y
 sudo apt install nethogs -y
 sudo apt install iptraf -y
 sudo apt install net-tools -y 
+sudo apt install build-essential
+sudo apt install linux-headers-$(uname -r)
