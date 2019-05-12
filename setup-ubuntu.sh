@@ -31,3 +31,7 @@ sudo apt install iptraf -y
 sudo apt install net-tools -y 
 sudo apt install build-essential
 sudo apt install linux-headers-$(uname -r)
+sudo apt install bear
+sudo apt install libboost-dev
+#For embedded development
+sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
